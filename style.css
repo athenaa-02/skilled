@@ -204,3 +204,19 @@ p.skilled{
     color: white;
 }
 
+@media screen and (min-width:720px) {
+    section.first_text_image{
+        flex-direction: row;
+        padding-left: 50px ;
+    }
+
+    aside.red{
+        height: 259px;
+        margin: 0;
+    }
+    h2{
+        width: 286px;
+        height: 120px;
+        font-size: 32px;
+    }
+}
